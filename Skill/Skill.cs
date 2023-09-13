@@ -1,4 +1,4 @@
-void Create()
+public entity Create()
 {
     var entity=MongoHeper.Instance.Clone(this)
     entity.Start(sence,true)
@@ -15,6 +15,7 @@ void Create()
     {
         ccc;
     }
+    return entity;
 }
 
 public void Do()
